@@ -117,6 +117,10 @@ MIT License - feel free to use for your organization!
 GitHub: [Nirmal1913](https://github.com/Nirmal1913)  
 LinkedIn: [(www.linkedin.com/in/akhila-nirmal-b480b8253)]
 
+## 📸 Screenshots
+<img width="1268" height="753" alt="image" src="https://github.com/user-attachments/assets/73a9c661-5fe3-487a-a676-447d82964401" />
+<img width="1322" height="720" alt="image" src="https://github.com/user-attachments/assets/f38aba5b-75d4-4eeb-8ab0-77ab6fde8fcd" />
+<img width="1353" height="615" alt="image" src="https://github.com/user-attachments/assets/40009792-c623-4a2d-a85f-8bfde42a19f6" />
 ---
 
 ⭐ Star this repo if you find it useful!
