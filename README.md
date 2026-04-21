@@ -115,7 +115,7 @@ MIT License - feel free to use for your organization!
 
 **Your Name**  
 GitHub: [Nirmal1913](https://github.com/Nirmal1913)  
-LinkedIn: [Akhila Nirmal](www.linkedin.com/in/akhila-nirmal-b480b8253)
+LinkedIn: [(www.linkedin.com/in/akhila-nirmal-b480b8253)]
 
 ---
 
