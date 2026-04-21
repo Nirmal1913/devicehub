@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    /* @apply border-border; */
+  }
+  body {
+    @apply bg-combank-slate text-gray-900 font-sans antialiased;
+  }
+}
+
+@layer components {
+  /* Glass morphism card */
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-lg;
+  }
+
+  /* Primary button */
+  .btn-primary {
+    @apply px-4 py-2.5 bg-gradient-to-r from-combank-navy to-combank-blue text-white font-medium rounded-lg
+           shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  /* Secondary button */
+  .btn-secondary {
+    @apply px-4 py-2.5 bg-white/90 text-combank-navy font-medium rounded-lg border border-combank-blue/20
+           shadow-sm hover:shadow-md transition-all duration-200 hover:bg-combank-lightBlue disabled:opacity-50;
+  }
+
+  /* Success button (green) */
+  .btn-success {
+    @apply px-4 py-2.5 bg-combank-green text-white font-medium rounded-lg
+           shadow-md hover:shadow-lg transition-all duration-200 hover:brightness-110 disabled:opacity-50;
+  }
+
+  /* Danger button */
+  .btn-danger {
+    @apply px-4 py-2.5 bg-red-600 text-white font-medium rounded-lg
+           shadow-md hover:shadow-lg transition-all duration-200 hover:bg-red-700 disabled:opacity-50;
+  }
+
+  /* Badge */
+  .badge {
+    @apply px-2.5 py-1 text-xs font-semibold rounded-full inline-block;
+  }
+
+  .badge-available {
+    @apply bg-green-100 text-green-700;
+  }
+
+  .badge-checked-out {
+    @apply bg-blue-100 text-blue-700;
+  }
+
+  .badge-reserved {
+    @apply bg-purple-100 text-purple-700;
+  }
+
+  .badge-repair {
+    @apply bg-orange-100 text-orange-700;
+  }
+
+  .badge-retired {
+    @apply bg-gray-100 text-gray-600;
+  }
+
+  /* Input field */
+  .input {
+    @apply w-full px-4 py-2.5 bg-white/90 border border-gray-300 rounded-lg
+           focus:outline-none focus:ring-2 focus:ring-combank-blue/50 focus:border-combank-blue
+           transition-all duration-200 placeholder:text-gray-400;
+  }
+
+  /* Skeleton loader */
+  .skeleton {
+    @apply bg-gradient-to-r from-gray-200 via-gray-300 to-gray-200 bg-[length:1000px_100%] animate-shimmer rounded;
+  }
+}
